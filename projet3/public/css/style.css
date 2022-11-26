@@ -1,0 +1,43 @@
+.classe table,td,tr,th{
+    border: 2px solid brown;
+    text-align: center;
+}
+.classe table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2% 10%;
+}
+.classe{
+    width: 60%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px; 
+}
+.conteneur{
+    display: flex;
+    justify-content: center;
+}
+.classe h2{
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+}
+.menu ul{
+    display: flex;
+    width: 80%;
+    margin-left: 5%
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:active{
+    color: brown;
+}
